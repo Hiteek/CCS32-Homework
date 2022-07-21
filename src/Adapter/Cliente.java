@@ -12,10 +12,10 @@ public class Cliente {
         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(small_sqpeg);
         SquarePegAdapter largeSqPegAdapter = new SquarePegAdapter(large_sqpeg);
         if (hole.fits(smallSqPegAdapter)) {
-            System.out.println("El cuadrado de ancho 2 entra en el agujero de radio 5.");
+            System.out.println("La pieza cuadrada de ancho 2 entra en el agujero de radio 5.");
         }
         if (!hole.fits(largeSqPegAdapter)) {
-            System.out.println("El cuadrado de ancho 20 no quepa en el agujero de radio 5.");
+            System.out.println("La pieza cuadrada de ancho 20 no entra en el agujero de radio 5.");
         }
     }
 }
